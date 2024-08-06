@@ -24,7 +24,7 @@ struct ContentView: View {
         switch inputUnit {
         case "meters":
               input = inputValue * 3.2808
-          case "kilometers":
+          case "km":
               input = inputValue * 3280.84
           case "yards":
               input = inputValue * 3
@@ -39,7 +39,7 @@ struct ContentView: View {
         switch outputUnit {
         case "meters":
             output = input / 3.2808
-        case "kilometers":
+        case "km":
             output = input / 3280.84
         case "yards":
             output = input / 3
